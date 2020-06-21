@@ -1,18 +1,14 @@
-package com.djm.seckill.service.model;
+package com.djm.seckill.controller.viewobject;
 
 /**
- * Created by Xiao_Ming on 2020/6/20.
+ * Created by Xiao_Ming on 2020/6/21.
  */
-public class UserModel {
+public class UserVO {
     private Integer id;
     private String name;
     private Byte gender;
     private Integer age;
     private String telphone;
-    private String registerMode;
-    private String thirdPartyId;
-
-    private String encrptPassword;
 
     public Integer getId() {
         return id;
@@ -52,29 +48,5 @@ public class UserModel {
 
     public void setTelphone(String telphone) {
         this.telphone = telphone;
-    }
-
-    public String getRegisterMode() {
-        return registerMode;
-    }
-
-    public void setRegisterMode(String registerMode) {
-        this.registerMode = registerMode;
-    }
-
-    public String getThirdPartyId() {
-        return thirdPartyId;
-    }
-
-    public void setThirdPartyId(String thirdPartyId) {
-        this.thirdPartyId = thirdPartyId;
-    }
-
-    public String getEncrptPassword() {
-        return encrptPassword;
-    }
-
-    public void setEncrptPassword(String encrptPassword) {
-        this.encrptPassword = encrptPassword;
     }
 }
